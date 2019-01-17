@@ -10,8 +10,87 @@
 
 
 ## SEGUNDA PARTE 
-(Download e abertura do projeto no Android Studio)
+* Caso não queiram seguir os passos da segunda e terceira parte, podem fazer o download do projeto [BSVoiceApp](https://github.com/bcs44/BSVoiceApp).
 
+* 1 
+
+![1](https://user-images.githubusercontent.com/23102822/51327642-ac881b00-1a69-11e9-8e04-107f2e5f23ca.png)
+
+* 2
+
+![2](https://user-images.githubusercontent.com/23102822/51327644-aeea7500-1a69-11e9-81e1-e134545621b1.png)
+
+* 3
+
+![3](https://user-images.githubusercontent.com/23102822/51327654-b4e05600-1a69-11e9-99a4-fb3d01039db4.png)
+
+* 4
+
+![4](https://user-images.githubusercontent.com/23102822/51327680-bad63700-1a69-11e9-9059-928736cd4e54.png)
+
+* activity_falar.xml:
+
+
+ ```xml
+            <?xml version="1.0" encoding="utf-8"?>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".Falar"
+            android:orientation="vertical">
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:id="@+id/radio">
+
+                <RadioButton
+                    android:id="@+id/radioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Português" />
+
+                <RadioButton
+                    android:id="@+id/radioButton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Inglês" />
+
+                <RadioButton
+                    android:id="@+id/radioButton3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Default" />
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/bTalk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:text="Falar" />
+
+            <TextView
+                android:id="@+id/tvSpeech"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:scrollbars="vertical"
+                android:text="Name" />
+        </LinearLayout>
+  ```
+## TERCEIRA PARTE (CRIAÇÃO DOS FICHEIROS NECESSÁRIOS) 
+* Caso não queiram seguir os passos da segunda e terceira parte, podem fazer o download do projeto [BSVoiceApp](https://github.com/bcs44/BSVoiceApp).
+
+
+
+
+  
 ## TERCEIRA PARTE (STT)
 
 * Falar.java
