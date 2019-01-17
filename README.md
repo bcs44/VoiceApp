@@ -87,11 +87,54 @@
 ## TERCEIRA PARTE (CRIAÇÃO DOS FICHEIROS NECESSÁRIOS) 
 * Caso não queiram seguir os passos da segunda e terceira parte, podem fazer o download do projeto [BSVoiceApp](https://github.com/bcs44/BSVoiceApp).
 
+* 1
 
+![5](https://user-images.githubusercontent.com/23102822/51327878-25877280-1a6a-11e9-9d88-8d720be26ec7.png)
+
+* 2
+
+![6](https://user-images.githubusercontent.com/23102822/51327884-27e9cc80-1a6a-11e9-9707-3d984690506e.png)
+
+* 3
+
+![7](https://user-images.githubusercontent.com/23102822/51327887-28826300-1a6a-11e9-8d12-611544cf8090.png)
+
+* 4
+
+![8](https://user-images.githubusercontent.com/23102822/51327890-29b39000-1a6a-11e9-8182-d215cd525e99.png)
+
+* activity_ouvir.xml:
+
+  ```xml
+     <?xml version="1.0" encoding="utf-8"?>
+   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+       xmlns:app="http://schemas.android.com/apk/res-auto"
+       xmlns:tools="http://schemas.android.com/tools"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       tools:context=".Ouvir"
+       android:orientation="vertical">
+
+       <EditText
+           android:id="@+id/editText"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:ems="10"
+           android:inputType="textPersonName"
+           android:text="O que deseja Ouvir?" />
+
+       <Button
+           android:id="@+id/button"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Button" />
+   </LinearLayout>
+
+  ```
 
 
   
-## TERCEIRA PARTE (STT)
+## QUARTA PARTE (STT)
 
 * Falar.java
     
@@ -298,7 +341,7 @@
     
  
 
-## QUARTA PARTE (TTS)
+## QUINTA PARTE (TTS)
 
 * Ouvir.java
     
